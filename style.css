@@ -1,0 +1,116 @@
+/* Tổng thể trang web */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-image: url('https://hailang.quangtri.gov.vn/images/hailang.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.5em;
+}
+
+/* Menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #333;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f7a300;
+}
+
+/* Các section */
+.section-padding {
+  padding: 40px 10%;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  color: #2a9df4; /* Màu sắc đẹp cho tiêu đề */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: #555;
+  text-align: justify;
+}
+
+section img {
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section video {
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.next-btn {
+  display: inline-block;
+  background-color: #2a9df4;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+  background-color: #f7a300;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  font-size: 1em;
+}
